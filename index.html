@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav1">
+            <div class="container">
+                <div class="nav">
+                    <div class="nav__links">
+                        <div class="nav__link">
+                            <img class="nav__link--img" src="img/nav/home.png" alt="">
+                            <a class="nav__link--a" href="">Bosh sahifa</a>
+                        </div>
+                        <div class="nav__link">
+                            <img class="nav__link--img" src="img/nav/account.png" alt="">
+                            <a class="nav__link--a" href="">Profil</a>
+                        </div>
+                        <div class="nav__link">
+                            <img sclass="nav__link--img" src="img/nav/card.png" alt="">
+                            <a class="nav__link--a" href="">Savatcha</a>
+                        </div>
+                        <div class="nav__link">
+                            <img class="nav__link--img" src="img/nav/check.png" alt="">
+                            <a class="nav__link--a" href="">To'lov</a>
+                        </div>
+                    </div>
+
+                    <div class="nav__links">
+                        <div class="nav__link language">
+                            <img class="nav__link--img" src="img/nav/flag.png" alt="">
+                            <a class="nav__link--a" href="">Eng</a>
+                        </div>
+                        <div class="nav__link money">
+                            <img class="nav__link--img" src="img/nav/money.png" alt="">
+                            <a class="nav__link--a" href="">Dollar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="section__nav2">
+            <div class="container">
+                <div class="nav2">
+
+                    <div class="logo">
+                        <p>SHOPPING|UZ</p>
+                    </div>
+
+                    <div class="nav2__links">
+                        <div class="nav2__link login">
+                            <a>Kirish</a>
+                        </div>
+                        <div class="nav2__link registration">
+                            <a>Registratsiya</a>
+                        </div>
+                        <div class="nav2__link wishlist">
+                            <img src="img/nav/wish-list.png" alt="">
+                        </div>
+                        <div class="nav2__link shoppingcard">
+                            <img src="img/nav/card.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </section>
+    </header>
+
+    <div class="section products">
+        <div class="container2">
+            <div class="box">
+                <h2 class="name">Nike Air</h2>
+                <a href="#" class="buy">Sotib olish</a>
+                <div class="circle"></div>
+                <img src="img/product/shoes1.png" class="product" alt="">
+            </div>
+            <div class="box">
+                <h2 class="name">Xudi</h2>
+                <a href="#" class="buy">Buy now</a>
+                <div class="circle"></div>
+                <img src="img/product/man.png" class="product--futbolka" alt="">
+            </div>
+            <div class="box">
+                <h2 class="name">Futbolka</h2>
+                <a href="#" class="buy">Buy now</a>
+                <div class="circle"></div>
+                <img src="img/product/futbolka.png" class="product--futbolka" alt="">
+            </div>
+            <div class="box">
+                <h2 class="name">Product name</h2>
+                <a href="#" class="buy">Buy now</a>
+                <div class="circle"></div>
+                <img src="img/product/futbolka.png" class="product--futbolka" alt="">
+            </div>
+            <div class="box">
+                <h2 class="name">Product name</h2>
+                <a href="#" class="buy">Buy now</a>
+                <div class="circle"></div>
+                <img src="img/product/shoes1.png" class="product" alt="">
+            </div>
+             <div class="box">
+                 <h2 class="name">Product name</h2>
+                 <a href="#" class="buy">Buy now</a>
+                 <div class="circle"></div>
+                 <img src="img/product/shoes1.png" class="product" alt="">
+             </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".box"));
+    </script>
+</body>
+
+</html>
