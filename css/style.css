@@ -6,7 +6,7 @@ body {
 
 /* Header */
 .header {
-    font-family: Myriad Pro;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -31,12 +31,13 @@ body {
     align-items: center;
     margin-top: 5px;
     margin-bottom: 5px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .nav__link {
     padding: 12px 10px 10px 10px ;
     margin-left: 15px;
-
+font-family: 'Roboto', sans-serif;
     transition: .2s linear;
 }
 .nav__link:first-child {
@@ -58,7 +59,7 @@ body {
     text-decoration: none;
     color: white;
     font-size: 16px;
-    font-family: Myriad Pro;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
@@ -66,7 +67,7 @@ body {
     margin-left: 5px;
     color: white;
     font-size: 16px;
-    font-family: Myriad Pro;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
@@ -74,7 +75,7 @@ body {
     margin-left: 5px;
     color: white;
     font-size: 16px;
-    font-family: Myriad Pro;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
@@ -89,7 +90,7 @@ body {
     color: #fff;
     
     font-weight: 900;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 10px;    
 }
 
@@ -319,7 +320,7 @@ transition: 0.5s;
 
 /* Products */
 .products {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
